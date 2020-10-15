@@ -30,6 +30,7 @@ function App() {
 	
 	const [ count, setCount ] = useState ( () => countInitial() )
 	//const [ __state__, __function to update the state__ ] = useState( __default state value__ )
+	//if state is an object : const [todos, setTodos] = useState([{ text: 'Learn Hooks' }]);
     //two ways to set default values in useState:
     //useState(4) => the default value will run every time the component renders
 	//useState( callback ) => the default value will only run the first time the component renders/initializer

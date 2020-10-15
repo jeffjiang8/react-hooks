@@ -1,0 +1,7 @@
+Rules:
+
+1. only call hooks at the top level: don't call hooks inside of loops, conditionals, or nested functions
+
+2. only call hooks in React functions, not in js functions, make sure all stateful logics are clearly visible from its source code
+
+3. React relies on the order in which the hooks are called to know which state corresponds which useState call
